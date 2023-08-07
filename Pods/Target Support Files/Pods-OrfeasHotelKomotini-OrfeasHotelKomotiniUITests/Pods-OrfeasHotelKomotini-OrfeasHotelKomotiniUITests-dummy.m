@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_OrfeasHotelKomotini_OrfeasHotelKomotiniUITests : NSObject
+@end
+@implementation PodsDummy_Pods_OrfeasHotelKomotini_OrfeasHotelKomotiniUITests
+@end

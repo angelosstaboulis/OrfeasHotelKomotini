@@ -1,0 +1,6 @@
+framework module Pods_OrfeasHotelKomotini {
+  umbrella header "Pods-OrfeasHotelKomotini-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77E92B050F4F95273CEF3471 /* Pods_OrfeasHotelKomotini_OrfeasHotelKomotiniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75AE5C00E784B7D28D91A00 /* Pods_OrfeasHotelKomotini_OrfeasHotelKomotiniUITests.framework */; };
+		85DD916688087E4592C574E1 /* Pods_OrfeasHotelKomotiniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A1914D20F79CD74629F099 /* Pods_OrfeasHotelKomotiniTests.framework */; };
+		D637B2172A7FAD4E0068DCB7 /* OrfeasHotelKomotiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2162A7FAD4E0068DCB7 /* OrfeasHotelKomotiniApp.swift */; };
+		D637B2192A7FAD4E0068DCB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2182A7FAD4E0068DCB7 /* ContentView.swift */; };
+		D637B21B2A7FAD4F0068DCB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D637B21A2A7FAD4F0068DCB7 /* Assets.xcassets */; };
+		D637B21E2A7FAD4F0068DCB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D637B21D2A7FAD4F0068DCB7 /* Preview Assets.xcassets */; };
+		D637B2282A7FAD500068DCB7 /* OrfeasHotelKomotiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2272A7FAD500068DCB7 /* OrfeasHotelKomotiniTests.swift */; };
+		D637B2322A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2312A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests.swift */; };
+		D637B2342A7FAD500068DCB7 /* OrfeasHotelKomotiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2332A7FAD500068DCB7 /* OrfeasHotelKomotiniUITestsLaunchTests.swift */; };
+		D637B2412A7FAF610068DCB7 /* SwiftUIHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2402A7FAF610068DCB7 /* SwiftUIHome.swift */; };
+		D637B2432A7FBB300068DCB7 /* SwiftUIAccomodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2422A7FBB300068DCB7 /* SwiftUIAccomodation.swift */; };
+		D637B2452A7FBD8D0068DCB7 /* SwiftUIFacilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2442A7FBD8D0068DCB7 /* SwiftUIFacilities.swift */; };
+		D637B2472A7FBE210068DCB7 /* SwiftUIReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637B2462A7FBE210068DCB7 /* SwiftUIReservation.swift */; };
+		D67F3AA22A814B120081B52D /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67F3AA12A814B120081B52D /* ContactModel.swift */; };
+		D67F3AA52A814FF70081B52D /* ReservationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67F3AA42A814FF70081B52D /* ReservationModel.swift */; };
+		D67F3AA72A8150310081B52D /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67F3AA62A8150310081B52D /* Reservation.swift */; };
+		D6910B592A81407200794F15 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6910B582A81407200794F15 /* Contact.swift */; };
+		D6CEF8332A80D73000E10234 /* SwiftUIGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CEF8322A80D73000E10234 /* SwiftUIGallery.swift */; };
+		D6CEF8352A80D99100E10234 /* SwiftUIHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CEF8342A80D99100E10234 /* SwiftUIHotel.swift */; };
+		D6CEF8372A80D9A000E10234 /* SwiftUIRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CEF8362A80D9A000E10234 /* SwiftUIRestaurant.swift */; };
+		D6CEF8392A81006F00E10234 /* SwiftUIContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CEF8382A81006F00E10234 /* SwiftUIContacts.swift */; };
+		EEB26F92052E3FA6EAE1A639 /* Pods_OrfeasHotelKomotini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7AD7DF13357A3AF0C2D059 /* Pods_OrfeasHotelKomotini.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D637B2242A7FAD500068DCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D637B20B2A7FAD4E0068DCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D637B2122A7FAD4E0068DCB7;
+			remoteInfo = OrfeasHotelKomotini;
+		};
+		D637B22E2A7FAD500068DCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D637B20B2A7FAD4E0068DCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D637B2122A7FAD4E0068DCB7;
+			remoteInfo = OrfeasHotelKomotini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D17CB9CC7A44B6A23F4A184 /* Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.release.xcconfig"; path = "Target Support Files/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		22A1914D20F79CD74629F099 /* Pods_OrfeasHotelKomotiniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrfeasHotelKomotiniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E6284965CB528CB1D7EA14 /* Pods-OrfeasHotelKomotiniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrfeasHotelKomotiniTests.debug.xcconfig"; path = "Target Support Files/Pods-OrfeasHotelKomotiniTests/Pods-OrfeasHotelKomotiniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5471283B7C62BCBE19EC9309 /* Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.debug.xcconfig"; path = "Target Support Files/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		587B37857006467981665163 /* Pods-OrfeasHotelKomotini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrfeasHotelKomotini.debug.xcconfig"; path = "Target Support Files/Pods-OrfeasHotelKomotini/Pods-OrfeasHotelKomotini.debug.xcconfig"; sourceTree = "<group>"; };
+		6B7AD7DF13357A3AF0C2D059 /* Pods_OrfeasHotelKomotini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrfeasHotelKomotini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75AE5C00E784B7D28D91A00 /* Pods_OrfeasHotelKomotini_OrfeasHotelKomotiniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrfeasHotelKomotini_OrfeasHotelKomotiniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B194605BAB3FC644442B2499 /* Pods-OrfeasHotelKomotiniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrfeasHotelKomotiniTests.release.xcconfig"; path = "Target Support Files/Pods-OrfeasHotelKomotiniTests/Pods-OrfeasHotelKomotiniTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC7E3BDDB88C2EB3793AB024 /* Pods-OrfeasHotelKomotini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrfeasHotelKomotini.release.xcconfig"; path = "Target Support Files/Pods-OrfeasHotelKomotini/Pods-OrfeasHotelKomotini.release.xcconfig"; sourceTree = "<group>"; };
+		D637B2132A7FAD4E0068DCB7 /* OrfeasHotelKomotini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrfeasHotelKomotini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D637B2162A7FAD4E0068DCB7 /* OrfeasHotelKomotiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrfeasHotelKomotiniApp.swift; sourceTree = "<group>"; };
+		D637B2182A7FAD4E0068DCB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D637B21A2A7FAD4F0068DCB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D637B21D2A7FAD4F0068DCB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D637B2232A7FAD500068DCB7 /* OrfeasHotelKomotiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrfeasHotelKomotiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D637B2272A7FAD500068DCB7 /* OrfeasHotelKomotiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrfeasHotelKomotiniTests.swift; sourceTree = "<group>"; };
+		D637B22D2A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrfeasHotelKomotiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D637B2312A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrfeasHotelKomotiniUITests.swift; sourceTree = "<group>"; };
+		D637B2332A7FAD500068DCB7 /* OrfeasHotelKomotiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrfeasHotelKomotiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D637B2402A7FAF610068DCB7 /* SwiftUIHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHome.swift; sourceTree = "<group>"; };
+		D637B2422A7FBB300068DCB7 /* SwiftUIAccomodation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccomodation.swift; sourceTree = "<group>"; };
+		D637B2442A7FBD8D0068DCB7 /* SwiftUIFacilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFacilities.swift; sourceTree = "<group>"; };
+		D637B2462A7FBE210068DCB7 /* SwiftUIReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIReservation.swift; sourceTree = "<group>"; };
+		D67F3A9E2A8147810081B52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D67F3AA12A814B120081B52D /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		D67F3AA42A814FF70081B52D /* ReservationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationModel.swift; sourceTree = "<group>"; };
+		D67F3AA62A8150310081B52D /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		D6910B582A81407200794F15 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D6CEF8322A80D73000E10234 /* SwiftUIGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGallery.swift; sourceTree = "<group>"; };
+		D6CEF8342A80D99100E10234 /* SwiftUIHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHotel.swift; sourceTree = "<group>"; };
+		D6CEF8362A80D9A000E10234 /* SwiftUIRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRestaurant.swift; sourceTree = "<group>"; };
+		D6CEF8382A81006F00E10234 /* SwiftUIContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContacts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D637B2102A7FAD4E0068DCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB26F92052E3FA6EAE1A639 /* Pods_OrfeasHotelKomotini.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D637B2202A7FAD500068DCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DD916688087E4592C574E1 /* Pods_OrfeasHotelKomotiniTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D637B22A2A7FAD500068DCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E92B050F4F95273CEF3471 /* Pods_OrfeasHotelKomotini_OrfeasHotelKomotiniUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A7C963378085561B240708 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				587B37857006467981665163 /* Pods-OrfeasHotelKomotini.debug.xcconfig */,
+				BC7E3BDDB88C2EB3793AB024 /* Pods-OrfeasHotelKomotini.release.xcconfig */,
+				5471283B7C62BCBE19EC9309 /* Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.debug.xcconfig */,
+				0D17CB9CC7A44B6A23F4A184 /* Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.release.xcconfig */,
+				34E6284965CB528CB1D7EA14 /* Pods-OrfeasHotelKomotiniTests.debug.xcconfig */,
+				B194605BAB3FC644442B2499 /* Pods-OrfeasHotelKomotiniTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45FE442283883B201405E010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B7AD7DF13357A3AF0C2D059 /* Pods_OrfeasHotelKomotini.framework */,
+				A75AE5C00E784B7D28D91A00 /* Pods_OrfeasHotelKomotini_OrfeasHotelKomotiniUITests.framework */,
+				22A1914D20F79CD74629F099 /* Pods_OrfeasHotelKomotiniTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D637B20A2A7FAD4E0068DCB7 = {
+			isa = PBXGroup;
+			children = (
+				D637B2152A7FAD4E0068DCB7 /* OrfeasHotelKomotini */,
+				D637B2262A7FAD500068DCB7 /* OrfeasHotelKomotiniTests */,
+				D637B2302A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests */,
+				D637B2142A7FAD4E0068DCB7 /* Products */,
+				37A7C963378085561B240708 /* Pods */,
+				45FE442283883B201405E010 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D637B2142A7FAD4E0068DCB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D637B2132A7FAD4E0068DCB7 /* OrfeasHotelKomotini.app */,
+				D637B2232A7FAD500068DCB7 /* OrfeasHotelKomotiniTests.xctest */,
+				D637B22D2A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D637B2152A7FAD4E0068DCB7 /* OrfeasHotelKomotini */ = {
+			isa = PBXGroup;
+			children = (
+				D67F3AA32A814B300081B52D /* ViewModel */,
+				D67F3AA02A814B020081B52D /* Model */,
+				D67F3A9F2A814AEF0081B52D /* View */,
+				D67F3A9E2A8147810081B52D /* Info.plist */,
+				D637B2162A7FAD4E0068DCB7 /* OrfeasHotelKomotiniApp.swift */,
+				D637B2182A7FAD4E0068DCB7 /* ContentView.swift */,
+				D637B21A2A7FAD4F0068DCB7 /* Assets.xcassets */,
+				D637B21C2A7FAD4F0068DCB7 /* Preview Content */,
+			);
+			path = OrfeasHotelKomotini;
+			sourceTree = "<group>";
+		};
+		D637B21C2A7FAD4F0068DCB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D637B21D2A7FAD4F0068DCB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D637B2262A7FAD500068DCB7 /* OrfeasHotelKomotiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				D637B2272A7FAD500068DCB7 /* OrfeasHotelKomotiniTests.swift */,
+			);
+			path = OrfeasHotelKomotiniTests;
+			sourceTree = "<group>";
+		};
+		D637B2302A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D637B2312A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests.swift */,
+				D637B2332A7FAD500068DCB7 /* OrfeasHotelKomotiniUITestsLaunchTests.swift */,
+			);
+			path = OrfeasHotelKomotiniUITests;
+			sourceTree = "<group>";
+		};
+		D67F3A9F2A814AEF0081B52D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D637B2402A7FAF610068DCB7 /* SwiftUIHome.swift */,
+				D637B2422A7FBB300068DCB7 /* SwiftUIAccomodation.swift */,
+				D637B2442A7FBD8D0068DCB7 /* SwiftUIFacilities.swift */,
+				D637B2462A7FBE210068DCB7 /* SwiftUIReservation.swift */,
+				D6CEF8322A80D73000E10234 /* SwiftUIGallery.swift */,
+				D6CEF8342A80D99100E10234 /* SwiftUIHotel.swift */,
+				D6CEF8362A80D9A000E10234 /* SwiftUIRestaurant.swift */,
+				D6CEF8382A81006F00E10234 /* SwiftUIContacts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D67F3AA02A814B020081B52D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D67F3AA42A814FF70081B52D /* ReservationModel.swift */,
+				D67F3AA12A814B120081B52D /* ContactModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D67F3AA32A814B300081B52D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6910B582A81407200794F15 /* Contact.swift */,
+				D67F3AA62A8150310081B52D /* Reservation.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D637B2122A7FAD4E0068DCB7 /* OrfeasHotelKomotini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D637B2372A7FAD500068DCB7 /* Build configuration list for PBXNativeTarget "OrfeasHotelKomotini" */;
+			buildPhases = (
+				1A731EE7E8C6E673D52707F3 /* [CP] Check Pods Manifest.lock */,
+				D637B20F2A7FAD4E0068DCB7 /* Sources */,
+				D637B2102A7FAD4E0068DCB7 /* Frameworks */,
+				D637B2112A7FAD4E0068DCB7 /* Resources */,
+				19259209967D063340D1514A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrfeasHotelKomotini;
+			productName = OrfeasHotelKomotini;
+			productReference = D637B2132A7FAD4E0068DCB7 /* OrfeasHotelKomotini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D637B2222A7FAD500068DCB7 /* OrfeasHotelKomotiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D637B23A2A7FAD500068DCB7 /* Build configuration list for PBXNativeTarget "OrfeasHotelKomotiniTests" */;
+			buildPhases = (
+				5BBB31FA63113F47DC4F60EB /* [CP] Check Pods Manifest.lock */,
+				D637B21F2A7FAD500068DCB7 /* Sources */,
+				D637B2202A7FAD500068DCB7 /* Frameworks */,
+				D637B2212A7FAD500068DCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D637B2252A7FAD500068DCB7 /* PBXTargetDependency */,
+			);
+			name = OrfeasHotelKomotiniTests;
+			productName = OrfeasHotelKomotiniTests;
+			productReference = D637B2232A7FAD500068DCB7 /* OrfeasHotelKomotiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D637B22C2A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D637B23D2A7FAD500068DCB7 /* Build configuration list for PBXNativeTarget "OrfeasHotelKomotiniUITests" */;
+			buildPhases = (
+				6EF9E8A1F85A4CF8078E93B5 /* [CP] Check Pods Manifest.lock */,
+				D637B2292A7FAD500068DCB7 /* Sources */,
+				D637B22A2A7FAD500068DCB7 /* Frameworks */,
+				D637B22B2A7FAD500068DCB7 /* Resources */,
+				F9850440464D8A1C8D648489 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D637B22F2A7FAD500068DCB7 /* PBXTargetDependency */,
+			);
+			name = OrfeasHotelKomotiniUITests;
+			productName = OrfeasHotelKomotiniUITests;
+			productReference = D637B22D2A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D637B20B2A7FAD4E0068DCB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D637B2122A7FAD4E0068DCB7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D637B2222A7FAD500068DCB7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D637B2122A7FAD4E0068DCB7;
+					};
+					D637B22C2A7FAD500068DCB7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D637B2122A7FAD4E0068DCB7;
+					};
+				};
+			};
+			buildConfigurationList = D637B20E2A7FAD4E0068DCB7 /* Build configuration list for PBXProject "OrfeasHotelKomotini" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D637B20A2A7FAD4E0068DCB7;
+			productRefGroup = D637B2142A7FAD4E0068DCB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D637B2122A7FAD4E0068DCB7 /* OrfeasHotelKomotini */,
+				D637B2222A7FAD500068DCB7 /* OrfeasHotelKomotiniTests */,
+				D637B22C2A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D637B2112A7FAD4E0068DCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D637B21E2A7FAD4F0068DCB7 /* Preview Assets.xcassets in Resources */,
+				D637B21B2A7FAD4F0068DCB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D637B2212A7FAD500068DCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D637B22B2A7FAD500068DCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19259209967D063340D1514A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrfeasHotelKomotini/Pods-OrfeasHotelKomotini-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrfeasHotelKomotini/Pods-OrfeasHotelKomotini-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrfeasHotelKomotini/Pods-OrfeasHotelKomotini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A731EE7E8C6E673D52707F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrfeasHotelKomotini-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BBB31FA63113F47DC4F60EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrfeasHotelKomotiniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF9E8A1F85A4CF8078E93B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9850440464D8A1C8D648489 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests/Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D637B20F2A7FAD4E0068DCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D637B2432A7FBB300068DCB7 /* SwiftUIAccomodation.swift in Sources */,
+				D6CEF8372A80D9A000E10234 /* SwiftUIRestaurant.swift in Sources */,
+				D67F3AA22A814B120081B52D /* ContactModel.swift in Sources */,
+				D637B2192A7FAD4E0068DCB7 /* ContentView.swift in Sources */,
+				D637B2472A7FBE210068DCB7 /* SwiftUIReservation.swift in Sources */,
+				D6CEF8332A80D73000E10234 /* SwiftUIGallery.swift in Sources */,
+				D6CEF8352A80D99100E10234 /* SwiftUIHotel.swift in Sources */,
+				D6910B592A81407200794F15 /* Contact.swift in Sources */,
+				D67F3AA52A814FF70081B52D /* ReservationModel.swift in Sources */,
+				D6CEF8392A81006F00E10234 /* SwiftUIContacts.swift in Sources */,
+				D637B2452A7FBD8D0068DCB7 /* SwiftUIFacilities.swift in Sources */,
+				D637B2412A7FAF610068DCB7 /* SwiftUIHome.swift in Sources */,
+				D67F3AA72A8150310081B52D /* Reservation.swift in Sources */,
+				D637B2172A7FAD4E0068DCB7 /* OrfeasHotelKomotiniApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D637B21F2A7FAD500068DCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D637B2282A7FAD500068DCB7 /* OrfeasHotelKomotiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D637B2292A7FAD500068DCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D637B2322A7FAD500068DCB7 /* OrfeasHotelKomotiniUITests.swift in Sources */,
+				D637B2342A7FAD500068DCB7 /* OrfeasHotelKomotiniUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D637B2252A7FAD500068DCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D637B2122A7FAD4E0068DCB7 /* OrfeasHotelKomotini */;
+			targetProxy = D637B2242A7FAD500068DCB7 /* PBXContainerItemProxy */;
+		};
+		D637B22F2A7FAD500068DCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D637B2122A7FAD4E0068DCB7 /* OrfeasHotelKomotini */;
+			targetProxy = D637B22E2A7FAD500068DCB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D637B2352A7FAD500068DCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D637B2362A7FAD500068DCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D637B2382A7FAD500068DCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 587B37857006467981665163 /* Pods-OrfeasHotelKomotini.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrfeasHotelKomotini/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrfeasHotelKomotini/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.OrfeasHotelKomotini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D637B2392A7FAD500068DCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7E3BDDB88C2EB3793AB024 /* Pods-OrfeasHotelKomotini.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrfeasHotelKomotini/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrfeasHotelKomotini/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.OrfeasHotelKomotini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D637B23B2A7FAD500068DCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E6284965CB528CB1D7EA14 /* Pods-OrfeasHotelKomotiniTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.OrfeasHotelKomotiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrfeasHotelKomotini.app/OrfeasHotelKomotini";
+			};
+			name = Debug;
+		};
+		D637B23C2A7FAD500068DCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B194605BAB3FC644442B2499 /* Pods-OrfeasHotelKomotiniTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.OrfeasHotelKomotiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrfeasHotelKomotini.app/OrfeasHotelKomotini";
+			};
+			name = Release;
+		};
+		D637B23E2A7FAD500068DCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5471283B7C62BCBE19EC9309 /* Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.OrfeasHotelKomotiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrfeasHotelKomotini;
+			};
+			name = Debug;
+		};
+		D637B23F2A7FAD500068DCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D17CB9CC7A44B6A23F4A184 /* Pods-OrfeasHotelKomotini-OrfeasHotelKomotiniUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.OrfeasHotelKomotiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrfeasHotelKomotini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D637B20E2A7FAD4E0068DCB7 /* Build configuration list for PBXProject "OrfeasHotelKomotini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D637B2352A7FAD500068DCB7 /* Debug */,
+				D637B2362A7FAD500068DCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D637B2372A7FAD500068DCB7 /* Build configuration list for PBXNativeTarget "OrfeasHotelKomotini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D637B2382A7FAD500068DCB7 /* Debug */,
+				D637B2392A7FAD500068DCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D637B23A2A7FAD500068DCB7 /* Build configuration list for PBXNativeTarget "OrfeasHotelKomotiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D637B23B2A7FAD500068DCB7 /* Debug */,
+				D637B23C2A7FAD500068DCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D637B23D2A7FAD500068DCB7 /* Build configuration list for PBXNativeTarget "OrfeasHotelKomotiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D637B23E2A7FAD500068DCB7 /* Debug */,
+				D637B23F2A7FAD500068DCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D637B20B2A7FAD4E0068DCB7 /* Project object */;
+}
