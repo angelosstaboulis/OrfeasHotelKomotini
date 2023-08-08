@@ -12,7 +12,8 @@ struct SwiftUIContacts: View {
     var body: some View {
         VStack{
             Image(uiImage: UIImage(named: "hotel")!).resizable().frame(width: UIScreen.main.bounds.width - 30, height: 100, alignment: .top)
-            Image(uiImage: UIImage(named: "orfeas1")!).resizable().frame(width: UIScreen.main.bounds.width - 30, height: 100, alignment: .top)
+            Image(uiImage: UIImage(named: "orfeas1")!).resizable().frame(width: 452, height: 301, alignment: .top)
+
             TextField("Name", text: $modelContact.name).background {
                 RoundedRectangle(cornerRadius: 22).frame(width: 300, height: 60, alignment: .top)
                     .foregroundColor(.orange)
