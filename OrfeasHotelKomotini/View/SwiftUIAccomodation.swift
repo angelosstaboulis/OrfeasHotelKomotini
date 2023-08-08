@@ -23,9 +23,9 @@ Air condition
 Hair dryer
 Balcony (some of the rooms overlook the central square of Komotini)
 Rooms    Prices
-Single room    35 €
-Double room    45 €
-Triple room    55 €
+Single room\t35€
+Double room\t45€
+Triple room\t55 €
 Continental breakfast (optional) + 5€ per person
 
 Special prices, depending on the season
@@ -36,7 +36,7 @@ Also, special prices are available for travel agencies and in cases of group res
         ScrollView{
             VStack{
                 Image(uiImage: UIImage(named: "hotel")!).resizable().frame(width: UIScreen.main.bounds.width - 30, height: 100, alignment: .top)
-                Image(uiImage: UIImage(named: "accomo1")!).resizable().frame(width: UIScreen.main.bounds.width - 30, height: 100, alignment: .top)
+                Image(uiImage: UIImage(named: "accomo1")!).resizable().frame(width: 452, height: 301, alignment: .top)
                 Text(message).frame(width: UIScreen.main.bounds.width - 30, height: 600, alignment: .leading)
                 ScrollView(.horizontal){
                     HStack{

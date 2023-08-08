@@ -14,7 +14,7 @@ struct SwiftUIReservation: View {
             VStack{
                 
                 Image(uiImage: UIImage(named: "hotel")!).resizable().frame(width: UIScreen.main.bounds.width - 30, height: 100, alignment: .top)
-                Image(uiImage: UIImage(named: "accomo1")!).resizable().frame(width: UIScreen.main.bounds.width - 30, height: 100, alignment: .top)
+                Image(uiImage: UIImage(named: "accomo1")!).resizable().frame(width: 452, height: 301, alignment: .top)
                 TextField("Name", text:$reservation.name).background {
                     RoundedRectangle(cornerRadius: 22).frame(width: 300, height: 50, alignment: .top)
                         .foregroundColor(.orange)

@@ -13,7 +13,7 @@ struct SwiftUIFacilities: View {
     var body: some View {
             VStack{
                 Image(uiImage: UIImage(named: "hotel")!).resizable().frame(width: UIScreen.main.bounds.width - 30, height: 100, alignment: .top)
-                Image(uiImage: UIImage(named: "accomo1")!).resizable().frame(width: UIScreen.main.bounds.width - 30, height: 100, alignment: .top)
+                Image(uiImage: UIImage(named: "accomo1")!).resizable().frame(width: 452, height: 301, alignment: .top)
                 List(menuItems,id:\.self){ item in
                     NavigationLink {
                         if item.contains("Hotel"){
